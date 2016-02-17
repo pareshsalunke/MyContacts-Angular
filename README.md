@@ -255,31 +255,18 @@ applicable. Usually this is done by hosting the files by the backend server or t
 reverse-proxying the backend server(s) and webserver(s).
 
 
-## Continuous Integration
+FireBase 
 
-### Travis CI
+Firebase can power your app's backend, including data storage, user authentication, static hosting, and more.
+Data in your Firebase database is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our Android, iOS, and JavaScript SDKs, all of your clients share one Firebase database and automatically receive updates with the newest data.
 
-[Travis CI][travis] is a continuous integration service, which can monitor GitHub for new commits
-to your repository and execute scripts such as building the app or running tests. The angular-seed
-project contains a Travis configuration file, `.travis.yml`, which will cause Travis to run your
-tests when you push to GitHub.
+For more info on how to connect with firebase from you app.
+Please visit: https://www.firebase.com/
 
-You will need to enable the integration between Travis and GitHub. See the Travis website for more
-instruction on how to do this.
-
-### CloudBees
-
-CloudBees have provided a CI/deployment setup:
-
-<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-community/angular-js-clickstart/master/clickstart.json">
-<img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
-
-If you run this, you will get a cloned version of this repo to start working on in a private git repo,
-along with a CI service (in Jenkins) hosted that will run unit and end to end tests in both Firefox and Chrome.
 
 
 ## Contact
-
+Also, if you have any questions. Please feel free to contact me @pareshsalunke@gmail.com OR paresh.webjunkie@gmail.com
 For more information on AngularJS please check out http://angularjs.org/
 
 [git]: http://git-scm.com/
